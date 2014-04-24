@@ -49,6 +49,10 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
 
+    preprocessors: {
+        '**/*.coffee': ['coffee']
+    },
+
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false
